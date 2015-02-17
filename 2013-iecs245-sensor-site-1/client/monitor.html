@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<title>sMAP Service</title>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="sensor.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+<div id="webcam"><img src="http://192.168.4.107:81/?action=stream" /></div>
+<br/>
+<div>
+    Temperature: <div id="temperature"> N/A </div> 
+	Humidity: <div id="humidity" > N/A </div>
+	Light level: <div id="light" > N/A </div> 
+	<!--IR: <div id="ir"> N/A  </div>-->
+</div>	
+
+<!--
+<div>
+    <img src="http://140.134.26.61:81/?action=stream" /><br>
+
+    Temperature: <div id="temperature245"> N/A </div> 
+	Humidity: <div id="humidity245" > N/A </div>
+	Light level: <div id="light245" > N/A </div> 
+</div>	
+-->
+
+</body>
+</html>
